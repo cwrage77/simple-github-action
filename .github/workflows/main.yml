@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/simple-github-action@v1.1
+      uses: cwrage77/simple-github-action@v1
       with:
         who-to-greet: 'Courage the Nocturnal Cat'
     # Use the output from the `hello` step
